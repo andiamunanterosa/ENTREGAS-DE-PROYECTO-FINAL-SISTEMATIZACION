@@ -1,0 +1,44 @@
+---
+title: "semana 12"
+author: "rosa _andia"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{#medida de dispersion}
+var(data$edad,na.rm = TRUE)
+```
+
+You can add options to executable code like this
+
+```{#Desviacion de estandar}
+sd(data$edad,na.rm = TRUE)
+```
+
+```{#RANGO}
+range(data$edad,na.rm = TRUE)
+```
+
+```{r}
+#rango intercuarlitico
+IQR(data$edad,na.rm = TRUE)
+quantile(data$edad,probs = c(0,25,0,50,0,75,0,90),na.rm = TRUE)
+```
+
+```{undefined}
+head(data)
+
+```
+
+```{r}
+#resumen de todas las variables 
+summary(data)
+```

@@ -1,0 +1,65 @@
+---
+title: "SEMANA 2"
+author: "ANDIA MUÑANTE ROSA"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{#CREAR UN NUEVO  PROYECTO}
+1. Abre RStudio
+2. Ve al menú
+File → New Project
+3. Elige el tipo de proyecto
+
+Te aparecerán tres opciones:
+  
+New Directory → Para crear una carpeta nueva desde cero.
+
+Existing Directory → Para transformar una carpeta que ya tienes en un proyecto.
+
+Version Control (Git) → Para proyectos con Git (si usas control de versiones).
+
+Lo más común es:
+  New Directory
+
+
+---
+  
+  4. Selecciona el tipo de directorio
+
+Generalmente se usa:
+   New Project
+5. Ponle un nombre al proyecto
+
+Escribe un nombre claro, por ejemplo:
+  
+“Analisis_Anemia”
+
+“Proyecto_Tesis”
+
+6. Elige dónde se guardará
+
+Selecciona la ubicación en tu computadora.
+
+7. Crea el proyecto
+
+Haz clic en Create Project.
+
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

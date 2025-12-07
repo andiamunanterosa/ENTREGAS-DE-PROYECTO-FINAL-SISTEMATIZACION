@@ -1,0 +1,31 @@
+---
+title: "SEMANA 14"
+author: "ANDIA MUÑANTE ROSA"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+#REALIZAR EL ANALISIS DE REGRESION, ANALISIS UNIVARIADO,MULTIVARIADO #Análisis Univariado El análisis univariado se enfoca en estudiar una sola variable a la vez. Busca describir sus características mediante medidas como frecuencias, porcentajes, media, mediana, moda y desviación estándar. Sirve para conocer la distribución de los datos, detectar valores atípicos y obtener una visión inicial antes de relacionarla con otras variables. Análisis Multivariado
+
+#ANALISIS MULTIVARIADO El análisis multivariado estudia varias variables al mismo tiempo, con el fin de identificar patrones, relaciones y efectos conjuntos. Incluye técnicas como regresión múltiple, análisis factorial, conglomerados, ANOVA multivariado y correlaciones múltiples. Es útil para comprender fenómenos complejos, identificar qué factores tienen mayor influencia y clasificar grupos con características similares.Análisis de Regresión #ANALISIS DE REGRESION El análisis de regresión es una técnica estadística que permite estudiar cómo una variable dependiente cambia en función de una o varias variables independientes. Su objetivo es explicar y predecir resultados. Puede ser regresión simple (una sola variable independiente) o múltiple (dos o más variables independientes). Este método ayuda a identificar factores de riesgo, medir la intensidad de las relaciones entre variables y estimar tendencias.
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
